@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "app": "www.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "start" : "node ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type" : "git",
+    "url" : "git"
+  }
+}

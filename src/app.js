@@ -16,5 +16,5 @@ app.set("view engine", "ejs");
 //미들웨어 접속 use -> 미들웨어를 등록해 주는 메서드
 app.use("/", home);
 
-
+   
 module.exports = app;

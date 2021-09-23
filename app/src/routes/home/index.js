@@ -8,10 +8,8 @@ const ctrl = require("./home.ctrl");
 
 //app.get("/", (req,res) => {
 router.get("/", ctrl.home);
-
-
-
 //app.get("/login", (req,res) => {
 router.get("/login", ctrl.login);
+
 
 module.exports = router ;

@@ -19,10 +19,11 @@ function login (){
 
     fetch("/login", {
         method: "POST" ,
-        header : {
+        
+        headers : {
             "Content-Type" : "application/json",
         },
-        body: JOSN.stringify(req),
+        body: JSON.stringify(req),
     });
 
 }

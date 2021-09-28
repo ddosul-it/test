@@ -14,7 +14,7 @@ function login (){
         psword : psword.value,
     };
     
-    // console.log(req);
+     console.log(req);
     // console.log(req, JSON.stringify(req));
 
     fetch("/login", {
